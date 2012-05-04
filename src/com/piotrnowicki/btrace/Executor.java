@@ -10,7 +10,7 @@ public class Executor {
 
     private Logger log = Logger.getLogger(Executor.class.getName());
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         new Executor().execute();
     }
 
