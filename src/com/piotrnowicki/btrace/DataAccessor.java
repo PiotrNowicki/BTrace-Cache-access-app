@@ -7,18 +7,21 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * This class is responsible for accessing the data stored in the cache.
+ * This class is responsible for accessing the data stored in 
+ * the cache.
  * 
  * @author PiotrNowicki
  * 
  */
 public class DataAccessor {
-    private Logger log = Logger.getLogger(DataAccessor.class.getName());
+    private Logger log = 
+                    Logger.getLogger(DataAccessor.class.getName());
 
     /**
      * The cache for our {@link Data}.
      */
-    private Map<String, WeakReference<Data>> cache = new HashMap<String, WeakReference<Data>>();
+    private Map<String, WeakReference<Data>> cache = 
+                        new HashMap<String, WeakReference<Data>>();
 
     /**
      * Accesses the {@link Data} stored in cache under given

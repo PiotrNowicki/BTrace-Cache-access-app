@@ -7,10 +7,11 @@ import java.util.logging.Logger;
 import com.piotrnowicki.btrace.DataAccessor;
 
 /**
- * Main entry point for the application. Simulates multiple random accesses to the cache.
+ * Main entry point for the application. Simulates multiple random
+ * accesses to the cache.
  * 
  * @author PiotrNowicki
- *
+ * 
  */
 public class Executor {
 
@@ -33,7 +34,8 @@ public class Executor {
     }
 
     /**
-     * Helper method for random cache key generation. The number is from the range <0, 100).
+     * Helper method for random cache key generation. The number is 
+     * from the range <0, 100).
      * 
      * @return generated key
      */
@@ -42,7 +44,8 @@ public class Executor {
     }
 
     /**
-     * Helper method for random sleep time generation. The sleep time is from the range <0, 1000).
+     * Helper method for random sleep time generation. The sleep time 
+     * is from the range <0, 1000).
      * 
      * @return generated sleep time
      */
@@ -51,7 +54,8 @@ public class Executor {
     }
 
     /**
-     * Helper method for making the current Thread go to sleep for some time.
+     * Helper method for making the current Thread go to sleep for 
+     * some time.
      */
     void sleep() {
         long sleepTime = getSleepTime();
